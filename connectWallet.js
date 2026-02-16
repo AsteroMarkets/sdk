@@ -3,6 +3,6 @@ export async function connectWallet() {
     await window.ethereum.request({ method: "eth_requestAccounts" });
     alert("Wallet Connected");
   } else {
-    alert("Install MetaMask");
+    alert("Install Phantom");
   }
 }
